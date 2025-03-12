@@ -1,11 +1,13 @@
 import React from "react";
-import Form from "./Form"; // Import Form component
+import Form from "./Form";
 
 function App() {
     return (
         <div>
-            <h1>Welcome to My Form</h1>
-            <Form /> {/* Render the Form component */}
+            <Form />
+            <footer style={{ textAlign: "center", marginTop: "20px", padding: "10px", background: "#f1f1f1" }}>
+                <p>-By Ashish Ravipati</p>
+            </footer>
         </div>
     );
 }
